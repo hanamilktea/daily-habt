@@ -7,16 +7,16 @@ function DateDisplay({setHabits, dates}) {
 
     for (const date of dates) {
         dateArray.push(<Date key = {date} date={date}/>)
-    }
+    }; 
 
     function handleAddHabit(e) {
         const name = habitNameRef.current.value;
-        if (name === '') return;
-        setHabits(prevHabits => {
+        if (name === '') return;  // in case of a empty entry
+        setHabits(prevHabits => { 
             return [...prevHabits, {name: name, dates_accomp: []}]
         })
         habitNameRef.current.value = null;
-    }
+    };
 
     return (
         <div className="top-bar">
