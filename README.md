@@ -40,7 +40,7 @@ A daily habit tracker created by the "Jester Katana" team for Oregon State Unive
  - User can view how often they have completed each goal. 
  - Streaktracker for each habit
 
-![Alt daily habit page](https://imgur.com/3Uo3rBv)
+![Daily Habit Page](http://imgur.com/3Uo3rBv "Daily Habit Page")
  
 ## Setup
 
